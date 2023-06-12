@@ -1,5 +1,9 @@
 'use client'
 
+import Background from "@/components/Background"
+import mobile from "@/assets/home/background-home-mobile.jpg"
+import tablet from "@/assets/home/background-home-tablet.jpg"
+import desktop from "@/assets/home/background-home-desktop.jpg"
 import MotionDiv from "@/components/MotionDiv"
 import { motion } from "framer-motion"
 import { SCALE_UP, SLIDE_LEFT } from "@/lib/data"
@@ -7,9 +11,10 @@ import { useRouter } from "next/navigation"
 
 export default function Home() {
   let { push } = useRouter()
-  
+
   return (
     <MotionDiv>
+      <Background mobile={mobile.src} tablet={tablet.src} desktop={desktop.src} />
       <main className="relative z-10 min-h-[80vh] flex flex-col justify-evenly items-center lg:flex-row lg:items-end lg:justify-between lg:p-32">
         <motion.div variants={SLIDE_LEFT} className="text-secondary text-center px-4 md:max-w-lg md:mx-auto lg:mx-0 lg:text-left">
           <span className="nav-text text-lg uppercase lg:-translate-x-8 lg:text-3xl">So, you want to travel to</span>
