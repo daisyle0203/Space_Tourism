@@ -58,7 +58,10 @@ export default function Home() {
           <span>02 </span>Typography
         </h2>
         <div className="flex">
-          <div className="flow" style={{ flexBasis: "100%", "--flow-space": "4rem" }}>
+          <div
+            className="flow"
+            style={{ flexBasis: "100%", "--flow-space": "4rem" }}
+          >
             <div>
               <p className="text-accent">
                 Heading 1 - Bellefair Regular - 150px
@@ -96,7 +99,10 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="flow" style={{ flexBasis: "100%", "--flow-space": "4rem"}}>
+          <div
+            className="flow"
+            style={{ flexBasis: "100%", "--flow-space": "4rem" }}
+          >
             <div>
               <p className="text-accent">
                 Subheading 1 - Bellefair Regular - 28px
@@ -139,6 +145,32 @@ export default function Home() {
                 dapibus id, mattis vel, nisi.{" "}
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="flow" id="interactive-elements">
+        <h2 className="numbered-title">
+          <span>03</span> Interactive elements
+        </h2>
+        {/* navigation */}
+
+        <div></div>
+
+        <div className="flex">
+          <div style={{ marginTop: "5rem" }}>
+            {/* explore button */}
+            <a
+              href="#"
+              className="large-button uppercase ff-serif fs-600 text-dark bg-white"
+            >
+              Explore
+            </a>
+          </div>
+
+          <div style={{ marginBottom: "50vh" }}>
+            {/* Tabs */}/{/* Dots */}
+            {/* Numbers */}
           </div>
         </div>
       </section>
