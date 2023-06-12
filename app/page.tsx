@@ -227,6 +227,17 @@ export default function Home() {
             </div>
 
             {/* Numbers */}
+            <div className="numbered-indicators flex">
+              <button aria-selected="true">
+                <span>1</span>
+              </button>
+              <button aria-selected="false">
+                <span>2</span>
+              </button>
+              <button aria-selected="false">
+                <span>3</span>
+              </button>
+            </div>
           </div>
         </div>
       </section>
