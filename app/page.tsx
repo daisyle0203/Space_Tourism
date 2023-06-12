@@ -169,7 +169,8 @@ export default function Home() {
           </div>
 
           <div style={{ marginBottom: "50vh" }}>
-            {/* Tabs */}/{/* Dots */}
+            {/* Tabs */}
+            {/* Dots */}
             {/* Numbers */}
           </div>
         </div>
