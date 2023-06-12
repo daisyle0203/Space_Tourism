@@ -58,7 +58,7 @@ export default function Home() {
           <span>02 </span>Typography
         </h2>
         <div className="flex">
-          <div style={{ flexBasis: "100%" }}>
+          <div className="flow" style={{ flexBasis: "100%", "--flow-space": "4rem" }}>
             <div>
               <p className="text-accent">
                 Heading 1 - Bellefair Regular - 150px
@@ -96,7 +96,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div style={{ flexBasis: "100%" }}>
+          <div className="flow" style={{ flexBasis: "100%", "--flow-space": "4rem"}}>
             <div>
               <p className="text-accent">
                 Subheading 1 - Bellefair Regular - 28px
