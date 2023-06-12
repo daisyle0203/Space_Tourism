@@ -158,13 +158,19 @@ export default function Home() {
           <nav>
             <ul className="primary-navigation underline-indicators flex">
               <li className="active">
-                <a className="uppercase text-white letter-spacing-2" href="#"><span>01</span>Active</a>
+                <a className="uppercase text-white letter-spacing-2" href="#">
+                  <span>01</span>Active
+                </a>
               </li>
               <li>
-                <a className="uppercase text-white letter-spacing-2" href="#"><span>01</span>Hovered</a>
+                <a className="uppercase text-white letter-spacing-2" href="#">
+                  <span>01</span>Hovered
+                </a>
               </li>
               <li>
-                <a className="uppercase text-white letter-spacing-2" href="#"><span>01</span>Idle</a>
+                <a className="uppercase text-white letter-spacing-2" href="#">
+                  <span>01</span>Idle
+                </a>
               </li>
             </ul>
           </nav>
@@ -183,6 +189,12 @@ export default function Home() {
 
           <div style={{ marginBottom: "50vh" }}>
             {/* Tabs */}
+            <div className="tab-list underline-indicators flex">
+              <button aria-selected="true" className="uppercase ff-sans-cond text-accent bg-dark letter-spacing-2">Moon</button>
+              <button aria-selected="false" className="uppercase ff-sans-cond text-accent bg-dark letter-spacing-2">Mars</button>
+              <button aria-selected="false" className="uppercase ff-sans-cond text-accent bg-dark letter-spacing-2">Europa</button>
+            </div>
+
             {/* Dots */}
             {/* Numbers */}
           </div>
