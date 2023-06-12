@@ -36,9 +36,9 @@ Users should be able to:
 
 - [React](https://reactjs.org/) - JS library
 - [Next.js](https://nextjs.org/) - React framework
+- [FramerMotion](https://www.framer.com/motion/) - FramerMotion
 - Mobile-first workflow
 - TailwindCSS
-- FramerMotion
 - Flexbox
 - CSS Grid
 - Deploy with AWS Amplify
@@ -54,5 +54,6 @@ Users should be able to:
 
 ## Author
 
-- Daisy Le - [Github -https://github.com/daisyle0203](https://github.com/daisyle0203)
+- Daisy Le - [Github - https://github.com/daisyle0203](https://github.com/daisyle0203)
 
+[Top of Page](#space-tourism)
