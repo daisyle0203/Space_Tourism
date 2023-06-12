@@ -1,6 +1,7 @@
 import "./globals.css"
 import { Bellefair, Barlow_Condensed } from "next/font/google"
 import Navbar from "@/components/Navbar"
+import MotionContainer from "@/components/MotionContainer"
 
 const bellefair = Bellefair({
   subsets: ["latin"],
@@ -28,6 +29,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${barlow.variable} ${bellefair.variable} bg-primary`}>
         <Navbar />
+        <MotionContainer>{children}</MotionContainer>
       </body>
     </html>
   )
